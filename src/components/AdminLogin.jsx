@@ -5,7 +5,7 @@ function AdminLogin({ onLogin }) {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    if (email === 'admin@.com' && password === 'admin123') {
+    if (email === 'admin@1.com' && password === 'admin123') {
       onLogin('admin');
     } else {
       alert('Invalid admin credentials!');
@@ -15,7 +15,7 @@ function AdminLogin({ onLogin }) {
   return (
     <div className='p-4'>
       <h2 className='  text-white mt-10'>Admin Login</h2>
-      <div className=' w-96 flex flex-col gap-5'>
+      <div className=' lg:w-96 flex flex-col gap-5'>
       <input
         type="email"
         placeholder="Email"

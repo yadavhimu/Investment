@@ -9,7 +9,7 @@ const FirstPage = () => {
                 <p>Welcome Aboard</p>
             </div>
         </div>
-        <div className='flex mt-10'>
+        <div className='lg:flex mt-10'>
             <div className='w-full mt-10'>
                 <p className='text-8xl font-bold'>Invest Like a </p>
                 <p  className='text-8xl font-bold mt-1'>Pro Today!</p>
