@@ -16,7 +16,7 @@ const FirstPage = () => {
                 <p className='text-3xl mt-8'>Join the investment revolution and watch your money grow!</p>
             </div>
             <div className='w-full'>
-                <img className='rounded-3xl' src="./images/bitcoin.jpeg" alt="" />
+                <img className='rounded-3xl lg:mt-0 mt-20' src="./images/bitcoin.jpeg" alt="" />
             </div>
         </div>
       </div>

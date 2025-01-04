@@ -13,9 +13,10 @@ function AdminLogin({ onLogin }) {
   };
 
   return (
-    <div className='p-4'>
-      <h2 className='  text-white mt-10'>Admin Login</h2>
-      <div className=' lg:w-96 flex flex-col gap-5'>
+    <div className='p-4 flex justify-center '>
+      <div className=' lg:w-96 w-full flex flex-col justify-center gap-5'>
+      <h2 className='flex justify-center text-3xl  text-white mt-10'>Admin Login</h2>
+      
       <input
         type="email"
         placeholder="Email"

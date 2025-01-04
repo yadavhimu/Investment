@@ -13,9 +13,10 @@ function UserLogin({ onLogin }) {
   };
 
   return (
-    <div className='mt-10 p-4'>
-      <h2 className='text-white '>User Login</h2>
-      <div className='flex flex-col lg:w-96 gap-5'>
+    <div className='mt-10 p-4 flex justify-center'>
+      
+      <div className='flex flex-col lg:w-96 w-full gap-5'>
+      <h2 className=' flex justify-center text-3xl text-white '>User Login</h2>
       <input
         type="email"
         placeholder="Enter your email"
