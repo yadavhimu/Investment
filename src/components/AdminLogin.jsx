@@ -29,6 +29,7 @@ function AdminLogin({ onLogin }) {
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
+      
       <button className='bg-white' onClick={handleLogin}>Login</button>
       </div>
     </div>
