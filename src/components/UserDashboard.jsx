@@ -1,7 +1,6 @@
 import React from 'react';
 import Sidebar from './Sidebar'
 import DashboardContent from './DashboardContent'
-import Cryptochart from './Cryptochart'
 
 function UserDashboard({ email }) {
   const userCrypto = { email: email};
@@ -14,7 +13,6 @@ function UserDashboard({ email }) {
         <p> Welcome, {userCrypto.email}  </p>
         </div>
        <DashboardContent/>
-       <Cryptochart/>
       </div>
     </div>
   );
