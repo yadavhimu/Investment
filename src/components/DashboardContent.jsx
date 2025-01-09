@@ -7,7 +7,7 @@ const DashboardContent = () => {
   
     return (
       <div className="dashboard-content">
-        <div className="overview">
+        <div className="overview  ">
           <div className="card">
             <h3>Total Investment</h3>
             <p>${totalInvestment.toLocaleString()}</p>
