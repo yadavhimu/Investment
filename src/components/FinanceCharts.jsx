@@ -6,63 +6,63 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid,  Legend, ResponsiveContai
 const data = [
   {
     name: 'Jan',
-    income: 4000,
-    expense: 2400,
+    income: 400,
+    expense: 240,
   },
   {
     name: 'Feb',
-    income: 3000,
-    expense: 1398,
+    income: 300,
+    expense: 139,
   },
   {
     name: 'Mar',
-    income: 2000,
-    expense: 6800,
+    income: 200,
+    expense: 500,
   },
   {
     name: 'Apr',
-    income: 2780,
-    expense: 3908,
+    income: 378,
+    expense: 390,
   },
   {
     name: 'May',
-    income: 1890,
-    expense: 4800,
+    income: 489,
+    expense: 360,
   },
   {
     name: 'Jun',
-    income: 2390,
-    expense: 3800,
+    income: 390,
+    expense: 380,
   },
   {
     name: 'Jul',
-    income: 3490,
-    expense: 4300,
+    income: 349,
+    expense: 430,
   },
   {
     name: 'Aug',
-    income: 3490,
-    expense: 4300,
+    income: 349,
+    expense: 430,
   },
   {
     name: 'Sep',
-    income: 3490,
-    expense: 4300,
+    income: 490,
+    expense: 423,
   },
   {
     name: 'Oct',
-    income: 3490,
-    expense: 4300,
+    income: 437,
+    expense: 325,
   },
   {
     name: 'Nov',
-    income: 3490,
-    expense: 4300,
+    income: 196,
+    expense: 278,
   },
   {
     name: 'Dec',
-    income: 3490,
-    expense: 6300,
+    income: 365,
+    expense: 419,
   },
 ];
 
@@ -87,7 +87,7 @@ const FinanceCharts = () => {
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" axisLine={false} tick={{fill:"#d1d5db"}} tickLine={false} tickMargin={10} />
-          <YAxis axisLine={false} tickLine={false} tickMargin={20} />
+          <YAxis type="number" domain={[100,500]} axisLine={false} tickLine={false} tickMargin={10} />
           
           {/* <Legend /> */}
           <Line type="monotone" dataKey="income" stroke="#8884d8" strokeWidth={5} />
