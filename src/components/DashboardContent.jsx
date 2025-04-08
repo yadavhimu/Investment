@@ -1,8 +1,8 @@
 import { FaBtc } from "react-icons/fa6";
 const DashboardContent = () => {
-    const totalInvestment = 384000;
-    const profit = 383987;
-    const futureValue = 14;
+    const totalInvestment = 415333;
+    const profit = 414687;
+    const futureValue = 3167;
   
  
   
@@ -21,7 +21,7 @@ const DashboardContent = () => {
             <p>${profit.toLocaleString()}</p>
           </div>
           <div className="card">
-            <h3>Other</h3>
+            <h3>Ethereum</h3>
             <p>${futureValue.toLocaleString()}</p>
           </div>
         </div>
